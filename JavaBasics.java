@@ -1,6 +1,6 @@
 public class JavaBasics {
      public static void main(String args []) {
-        // Scanner sc = new Scanner(System.in);
+        /// Scanner sc = new Scanner(System.in);
 
 
         // Input from user
@@ -30,7 +30,7 @@ public class JavaBasics {
         // System.out.println(number);
 
 
-        // Type Casting
+        //Type Casting
 
         // float a = 45.9999f;
         // int b = (int)a;
