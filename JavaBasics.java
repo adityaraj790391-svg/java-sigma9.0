@@ -1,6 +1,6 @@
 public class JavaBasics {
      public static void main(String args []) {
-        /// Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
 
         // Input from user
@@ -22,7 +22,7 @@ public class JavaBasics {
 
         // Type Conversion
 
-        // int a = 100;
+        int a = 100;
         // long b = a;                   // Implicit Type Conversion
         // System.out.println(b);
 
