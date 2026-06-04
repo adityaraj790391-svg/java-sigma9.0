@@ -36,9 +36,16 @@ public class JavaBasics {
         // int b = (int)a;
         // System.out.println(b);
 
-        float marks = 99.999999f;
+        float marks = 99.9999f;
         int marks2 = (int)marks;
         System.out.println(marks2);              // Explicit Conversion
+
+        char ch = 'A';
+        char ch2 = 'D';
+        int number = ch;
+        int number2 = ch2;
+        System.out.println(number);
+        System.out.println(number2);
 
          
 
