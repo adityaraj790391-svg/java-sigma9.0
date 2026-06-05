@@ -51,9 +51,10 @@ public class operators {
         int x = 2;
         x = x-5;
         System.out.println(x);
-        
+
         x -=5;
         System.out.println(x);
+        
         x *=3;
         System.out.println(x);
         x /=2;
