@@ -44,13 +44,14 @@ public class operators {
         int y = 5;
         y = y +3;
         System.out.println(y);
-        
+
         y += 3;
         System.out.println(y);
 
         int x = 2;
         x = x-5;
         System.out.println(x);
+        
         x -=5;
         System.out.println(x);
         x *=3;
