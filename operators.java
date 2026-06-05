@@ -6,11 +6,11 @@ public class operators {
 
         int A = 10;
         int B = 12;
-        System.out.println("add =" + (A+B));
-        System.out.println("subtract =" + (A-B));
-        System.out.println("multiply =" + (A*B));
-        System.out.println("divide =" + (A/B));
-        System.out.println("modulo =" + (A%B));
+        System.out.println("add = " + (A+B));
+        System.out.println("subtract = " + (A-B));
+        System.out.println("multiply = " + (A*B));
+        System.out.println("divide = " + (A/B));
+        System.out.println("modulo = " + (A%B));
 
 
         // Increment and Decrement Operators or Unary Operators
@@ -56,11 +56,6 @@ public class operators {
         System.out.println(x);
         x /=2;
         System.out.println(x);
-
-
-
-
-
 
 
     }
