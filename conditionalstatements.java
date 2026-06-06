@@ -80,6 +80,20 @@ public class conditionalstatements {
         // }
 
 
+        // Ternary Operator
+
+        int number = 10;
+
+        String type = (number % 2 == 0) ? "Even" : "Odd";
+        System.out.println(type);
+
+        int marks = 9;
+        String reportcard = (marks >= 33) ? "Pass" : "Fail";
+        System.out.println(reportcard);
+
+
+
+
         // Switch Statement
 
         // int num = 2;
@@ -106,6 +120,8 @@ public class conditionalstatements {
         }
 
 
+    // Calculator using switch statement 
+    
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a :");
     int a = sc.nextInt();
@@ -128,16 +144,7 @@ public class conditionalstatements {
         default: System.out.println("Basic calculator");
 
     }
-
-    
-
-
-
-
-
-
-
-
+    sc.close();
 
     }
 }
