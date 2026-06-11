@@ -35,6 +35,7 @@ public class loops {
     //     System.out.print(counter+ " ");
     //     counter++;
     // }
+    System.out.println();
 
 
 
