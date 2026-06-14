@@ -75,12 +75,12 @@ public class loops {
 
                 // Print reverse of a number
 
-        int n = 54321;
+      int n = 54321;
         while (n>0) {
             int lastDigit = n%10;
             System.out.print(lastDigit + " ");
             n = n/10;
-        }
+      }
         System.out.println("Reverse printed");
 
 
