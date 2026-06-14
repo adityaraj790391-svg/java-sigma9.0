@@ -81,7 +81,7 @@ public class loops {
             System.out.print(lastDigit + " ");
             n = n/10;
       }
-        System.out.println("Reverse printed");
+      System.out.println("Reverse printed");
 
 
                // Reverse the given no.
