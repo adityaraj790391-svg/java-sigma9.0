@@ -98,11 +98,11 @@ public class loops {
 
               // DO WHILE LOOP
 
-        // int counter = 1;
-        // do {
-        //     System.out.println("Hello World");
-        //     counter++;
-        // } while (counter<=10);
+        int counter = 1;
+        do {
+            System.out.println("Hello World");
+            counter++;
+        } while (counter<=10);
     
     
     
