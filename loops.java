@@ -66,11 +66,11 @@ public class loops {
             System.out.println("****");
       }
 
-        int line = 1;
+      int line = 1;
         while(line<=4) {
             System.out.println("****");
             line++;
-        }
+      }
 
 
                 // Print reverse of a number
