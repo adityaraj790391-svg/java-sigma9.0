@@ -62,9 +62,9 @@ public class loops {
 
                 // PRINT SQUARE PATTERN
 
-        for (int line =1; line<=4; line++) {
+      for (int line =1; line<=4; line++) {
             System.out.println("****");
-        }
+      }
 
         int line = 1;
         while(line<=4) {
