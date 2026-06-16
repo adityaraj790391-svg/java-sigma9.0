@@ -84,7 +84,7 @@ public class loops {
       System.out.println("Reverse printed");
 
 
-               // Reverse the given no.
+               // Reverse the given nu
 
       //   int n = 12345;
 
