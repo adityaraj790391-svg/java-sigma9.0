@@ -53,7 +53,7 @@ public class loops {
 
 
           
-         // For loop INCLUDES initialization, condition, updation in single line
+         // For loop INCLUDES initialization, condition, updation in a single line
 
     for (int i =1; i<=10; i++) {
         System.out.println("Hello World ");
