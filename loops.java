@@ -156,7 +156,7 @@ public class loops {
 
 
 
-            //. Check if a no. is prime or not
+            // Check if a no. is prime or not
 
       Scanner sc = new Scanner (System.in);
       // int n = sc.nextInt();
@@ -178,15 +178,6 @@ public class loops {
                   }
             }
       }
-
-
-      
-    
-      
-     
-
-
-
 
 
        }
