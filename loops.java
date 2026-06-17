@@ -78,7 +78,7 @@ public class loops {
       int n = 54321;
         while (n>0) {
             int lastDigit = n%10;
-            System.out.print(lastDigit + " ");
+            System.out.print(lastDigit);
             n = n/10;
       }
       System.out.println("Reverse printed");
