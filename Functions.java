@@ -185,7 +185,7 @@ public class Functions {
     // }
 
 
-                // Binary to Decimal conversion
+                // Binary to Decimal Conversion
 
     public static int binToDec(int binNum) {
         int myNum = binNum;
