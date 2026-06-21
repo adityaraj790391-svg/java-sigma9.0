@@ -1,7 +1,7 @@
 public class JavaBasics {
      public static void main(String args []) {
-        // Scanner sc = new Scanner(System.in);
 
+        // public static is access modifier, main is the function name, String args[] is the input which is an array of strings , void is the return type of the function which means it does not return anything(output)
 
         // Input from user
 

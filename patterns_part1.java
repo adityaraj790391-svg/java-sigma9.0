@@ -29,7 +29,7 @@ public class patterns_part1 {
         // int n =5;
         // for (int line =1; line<=n; line++) {
         //     for (int number =1; number<=line; number++) {
-        //         System.out.print(number);
+        //         System.out.print(numbe r);
         //     }
         //     System.out.println();
         // }
