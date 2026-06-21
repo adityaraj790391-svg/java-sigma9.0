@@ -93,7 +93,7 @@ public class Functions {
     }
 
 
-                // There are two types of methods - user defined method and inbuilt method. User defined methods are those which we create ourselves. Eg - sum, product, factorial. Inbuilt methods are those which are already present in Java library and we can use them directly. Eg - Math.pow(), Math.sqrt(), Math.random() etc.
+                // There are two types of methods - user defined method and inbuilt method. User defined methods are those which we create ourselves. Eg - sum, product, factorial. Inbuilt method are those which are already present in Java library and we can use them directly. Eg - Math.pow(), Math.sqrt(), Math.random() etc.
 
 
                 // function overloading - multiple functions with the same name but different parameters. Eg - sum(int a, int b), sum(float a, float b), sum(double a, double b), sum(int a, int b, int c) etc. 
