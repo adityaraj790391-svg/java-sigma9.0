@@ -132,8 +132,23 @@ public class Functions {
 
 
           // Check if a number is prime or not
+          // Only for numbers greater than 1
 
     public static boolean isPrime(int n) {
+
+        // Corner cases
+
+        // 1
+
+        if (n <= 1) {
+            return false;
+        }
+
+        // 2
+
+        if (n <= 2) {
+            return true;
+        }
 
         for (int i =2; i<=n-1; i++) {
             if (n%i == 0) {
@@ -229,9 +244,19 @@ public class Functions {
 }
 
 
-public static void main(String[] args) {
-    decToBin(13);
-}
+// public static void main(String[] args) {
+//     decToBin(13);
+// }
+
+             // Method scope
+
+        public static void printS() {
+            int S = 45;
+        }
+
+        public static void main(String[] args) {
+            System.out.println(S);
+        }
 
 
 
