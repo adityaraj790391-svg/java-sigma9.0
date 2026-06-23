@@ -26,7 +26,7 @@ for (int i = 1; i<=totalRows; i++) {
 
 
 
-             // Inverted and Rotated Half Pyramid pattern
+             // Inverted and Rotated Half Pyramid Pattern
 
 public static void inverted_rotated_half_pyramid(int n) {
 
