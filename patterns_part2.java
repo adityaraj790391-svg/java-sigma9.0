@@ -57,7 +57,7 @@ public static void inverted_rotated_half_pyramid(int n) {
 
 
 
-               /// Inverted Half Pyramid With numbers
+               /// Inverted Half Pyramid With Numbers
 
 
 public static void inverted_half_pyramid_with_numbers (int n) {
