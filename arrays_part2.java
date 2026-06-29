@@ -36,7 +36,7 @@ public class arrays_part2 {
     // }
 
 
-           //// Max Sub Array - Two -   Prefix Array - using formula for max array sum - prefix[end] - prefix[start-1]
+           //// Max Sub Array - Two -   Prefix Array - using formula for max array sum - prefix[end] - prefix[start-1] - using formula for prefix sum - prefix[i-1] - arr[i]
 
 
 
