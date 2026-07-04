@@ -32,12 +32,12 @@ public class arrays_part2 {
     }
 
 
-    public static void main(String[] args) {
-        int numbers[] = {1,2,3,4,5,6,7,8,9,0};
-        printSubarraySum(numbers);
-        maxsubarrayprefixsum(numbers);
+    // public static void main(String[] args) {
+    //     int numbers[] = {1,2,3,4,5,6,7,8,9,0};
+    //     printSubarraySum(numbers);
+    //     maxsubarrayprefixsum(numbers);
         
-    }
+    // }
 
 
            //// Max Sub Array - Two -   Prefix Array - using formula for max array sum - prefix[end] - prefix[start-1] - using formula for prefix sum - prefix[i-1] - arr[i]
@@ -94,6 +94,26 @@ public class arrays_part2 {
     //     int numbers[] = {-2,-3,4,5,6,7,8,-6};
     //     kadane(numbers);
     // }
+
+        public static int buyandSellStock(int prices[]) {
+            int buyPrice = Integer.MAX_VALUE;
+            int maxProfit = 0;
+
+            for (int i = 0; i < prices.length; i++) {
+                if (buyPrice < prices[i]) {
+                    int profit = prices[i] - buyPrice;
+                    maxProfit = Math.max(maxProfit, profit);
+                } else {
+                    buyPrice = prices[i];
+                }
+            }
+            return maxProfit;
+        }
+
+        public static void main(String[] args) {
+            int prices[] = {7,1,5,3,6,4};
+            System.out.println(buyandSellStock(prices));
+        }
     
 
 
