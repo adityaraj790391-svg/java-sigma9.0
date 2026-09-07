@@ -3,7 +3,10 @@ public class data {
     // print(5);
     // printdec(5);
     // System.out.println(factorial(5));
-    System.out.println(power(2, 3));
+    // System.out.println(power(2, 3));
+    // System.out.println(countDigits(12345));
+    System.out.println(sumOfDigits(999));
+    System.out.println(lastDigit(123));
   };
 
   public static void print(int n) {
@@ -33,6 +36,24 @@ public class data {
       return 1;
     }
     return a * power(a, b - 1);
+  };
+
+  public static int countDigits(int n) {
+    if (n == 0) {
+      return 0;
+    }
+    return 1 + countDigits(n / 10);
+  };
+
+  public static int sumOfDigits(int n) {
+    if (n == 0) {
+      return 0;
+    }
+    return n % 10 + sumOfDigits(n / 10);
+  };
+
+  public static int lastDigit(int n) {
+    return n % 10;
   };
 };
 
