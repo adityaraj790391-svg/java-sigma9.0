@@ -1,5 +1,4 @@
 
-import java.nio.charset.UnmappableCharacterException;
 
 public class arrays_part2 {
 
@@ -10,7 +9,7 @@ public class arrays_part2 {
 
     
     public static void printSubarraySum (int numbers[]) {
-        int currSum = 0;
+        int currSum;
         int maxSum = Integer.MIN_VALUE;
 
         for (int i = 0; i<numbers.length; i++) {
@@ -29,7 +28,7 @@ public class arrays_part2 {
             }
             System.out.println("max sum = " + maxSum);
         }
-    }
+    };
 
 
     // public static void main(String[] args) {
@@ -43,8 +42,8 @@ public class arrays_part2 {
            //// Max Sub Array - Two -   Prefix Array - using formula for max array sum - prefix[end] - prefix[start-1] - using formula for prefix sum - prefix[i-1] - arr[i]
            
         public static void maxsubarrayprefixsum(int numbers[]) {
-            int currSum = 0;
-            imt maxSum = Integer.MIN_VALUE;
+            int currSum;
+            int maxSum = Integer.MIN_VALUE;
             int prefix[] = new int[numbers.length];
             prefix[0] = numbers[0];
 
